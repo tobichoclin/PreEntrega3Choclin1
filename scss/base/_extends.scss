@@ -1,0 +1,53 @@
+%centradoTotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+%centradoHorizontal{
+    display: flex;
+    justify-content: center;
+}
+%centradoVertical{
+    display: flex;
+    align-items: center;
+}
+%borde{
+    border: solid 3px #636363;
+    border-radius: 5px;
+}
+%bordeSinRadio{
+    border: solid 3px #636363;
+}
+%bordeFinito{
+    border: solid 1px #769fcd;
+    border-radius: 5px;
+}
+%centrarTexto{
+    text-align: center;
+}
+%texto15{font-size: 15px;}
+%texto18{font-size: 18px;} 
+%texto20{font-size: 20px;} 
+%texto25{font-size: 25px;} 
+%texto30{font-size: 30px;} 
+%texto40{font-size: 40px;} 
+%texto100{font-size: 100px;} 
+%texto1{
+    font-family: "Source Sans Pro", sans-serif;
+    font-weight: bold;
+}
+%texto2{
+    font-family: "Sofia Sans", sans-serif;
+}
+%imagenFondo{
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    position: relative;
+}
+%imagenCircular{
+    border-top-left-radius: 50% 50%;
+    border-top-right-radius: 50% 50%;
+    border-bottom-right-radius: 50% 50%;
+    border-bottom-left-radius: 50% 50%;
+}

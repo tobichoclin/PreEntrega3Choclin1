@@ -1,0 +1,19 @@
+/* header */
+.img-navbar{
+    @include altoAncho(50px, auto);
+    @include margen(0, 0, 0, 60px);
+}
+.navbar-mia{
+    display: flex;
+    @include borde(0, 0, 3px, 0, #636363, solid, 0px);
+    background-color: $celesteClaro;
+}
+.navlink-mio{
+    @extend %texto1;
+    color: $gris;
+    text-decoration: none;
+    @extend %texto25;
+}
+.navlink-mio:hover{
+    color: $celesteOscuro;
+}

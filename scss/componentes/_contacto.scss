@@ -1,0 +1,25 @@
+.titulo{
+    @extend %texto1;
+    @extend %texto40;
+    @extend %centradoHorizontal;
+    color: $gris
+}
+.texto{
+    @extend %texto2;
+    line-height: 2;
+    @extend %texto20;
+    @include pad(0, 20px, 0, 60px);
+    @extend %centradoHorizontal;
+    color: $gris;
+}
+.texto-form{
+    @extend %texto2;
+}
+.imgcontacto{
+    background-image: url(../assets/imagenes/contacto.jpg) !important;
+    height: 700px !important;
+}
+.color-cont{
+    position: relative;
+    color: $blanco;
+}

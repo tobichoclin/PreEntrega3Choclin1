@@ -1,0 +1,58 @@
+/* quiero manejar */
+.img-auto{
+    @include altoAncho(300px, 300px);
+    @include margen(0, 100px, 50px, 0);
+}
+.texto-encabezado{
+    @extend %texto2;
+    color: $gris;
+    @extend %texto20;
+    line-height: 2;
+}
+.cuadro_boton{
+    @include borde(1px, 1px, 1px, 1px, #769fcd, solid, 5px);
+    background-color: $celesteOscuro;
+    @extend %centrarTexto;
+    @extend %texto1;
+    @extend %texto20;
+    color: $gris;
+}
+.cuadro_boton:hover{
+    background-color: $gris;
+    color: $blanco;
+}
+.sin-subrayado{
+    text-decoration: none;
+}
+.img-tarjeta{
+    object-fit: cover;
+    @extend %imagenFondo;
+}
+.img-tarjeta:before {
+    content: "";
+    position: absolute;
+    background-color: $gris;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+}
+.titulo-qm{
+    @extend %texto1;
+    color: $gris;
+    @extend %texto40;
+}
+.texto-qm{
+    font-family: "Source Sans Pro", sans-serif;
+    line-height: 2;
+    color: $gris;
+    @extend %texto18;
+}
+.tarjeta{
+    transition: all 400ms ease;
+}
+.tarjeta:hover{
+    box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+    transform: translateY(-3%);
+}

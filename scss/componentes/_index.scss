@@ -1,0 +1,53 @@
+/* index */
+body{
+    background-color: $blanco;
+}
+.carrousel{
+    @include altoAncho(279px, 558px);
+    @include margen(0, 0, 0, 48px);
+}
+.testimonios{
+    @extend %centradoTotal;
+}
+#imagen_fondo{
+    background-image: url(../assets/imagenes/mapaa.avif);
+    @extend %imagenFondo;
+    height: 550px;
+    @extend %centradoTotal;
+}
+#imagen_fondo:before {
+    content: "";
+    position: absolute;
+    background-color: $gris;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    opacity: 0.6;
+  }
+#titulo-fondo{
+    @extend %texto1;
+    color: $blanco;
+    @extend %texto100;
+    position: relative;
+}
+.alto500{
+    height: 500px;
+}
+.padding50{
+    @include pad(50px, 50px, 50px, 50px);
+}
+.centrar-texto{
+    @extend %centrarTexto;
+}
+.space-ar{
+    display: flex;
+    justify-content: space-around;
+    @include pad(0, 20px, 0, 20px);
+}
+.margen-inferior{
+    @include margen(0, 0, 50px, 0);
+}
+.centrar{
+    @extend %centradoHorizontal;
+}

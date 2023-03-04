@@ -1,0 +1,18 @@
+/* como funciona */
+.cf1 {
+    background-image: url(../assets/imagenes/cf-1.jpg) !important;
+  }
+  .cf2 {
+    background-image: url(../assets/imagenes/cf-2.jpg) !important;
+  }
+  .cf3 {
+    background-image: url(../assets/imagenes/cf-3.jpg) !important;
+  }
+.texto-cf{
+    @extend %texto1;
+    line-height: 2;
+    color: $blanco;
+    @extend %texto30;
+    position: relative;
+    @extend %centrarTexto;
+}

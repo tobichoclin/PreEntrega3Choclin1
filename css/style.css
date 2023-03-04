@@ -1,0 +1,390 @@
+#imagen_fondo, .testimonios, .navbar-footer-mia {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.texto, .titulo, .centrar {
+  display: flex;
+  justify-content: center;
+}
+
+.cuadro_boton, .texto-cf, .centrar-texto {
+  text-align: center;
+}
+
+.derechos {
+  font-size: 15px;
+}
+
+.texto-qm {
+  font-size: 18px;
+}
+
+.cuadro_boton, .texto-encabezado, .texto {
+  font-size: 20px;
+}
+
+.navlink-mio {
+  font-size: 25px;
+}
+
+.texto-cf, .icono2, .icono {
+  font-size: 30px;
+}
+
+.titulo-qm, .titulo {
+  font-size: 40px;
+}
+
+#titulo-fondo {
+  font-size: 100px;
+}
+
+.tarjeta-conductor2, .tarjeta-conductor, .titulo-qm, .cuadro_boton, .titulo, .texto-cf, #titulo-fondo, .navlink-mio, .navbar-footer-mia {
+  font-family: "Source Sans Pro", sans-serif;
+  font-weight: bold;
+}
+
+.texto-encabezado, .texto-form, .texto {
+  font-family: "Sofia Sans", sans-serif;
+}
+
+.img-tarjeta, #imagen_fondo {
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: cover;
+  position: relative;
+}
+
+.img-conductor {
+  border-top-left-radius: 50% 50%;
+  border-top-right-radius: 50% 50%;
+  border-bottom-right-radius: 50% 50%;
+  border-bottom-left-radius: 50% 50%;
+}
+
+/* footer */
+.navbar-footer-mia {
+  background-color: #d6e6f2;
+  color: #636363;
+  border-bottom: 0;
+  border-top: 3px;
+  border-left: 0;
+  border-right: 0;
+  border-color: #636363;
+  border-style: solid;
+  border-radius: 0;
+  justify-content: flex-end !important;
+}
+
+.icono {
+  color: #636363;
+}
+
+.icono:hover {
+  color: #f7fbfc;
+}
+
+.icono2 {
+  color: #636363;
+}
+
+.nav-item-mio {
+  margin-left: 0;
+  margin-right: 50px;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.derechos {
+  color: #636363;
+  margin-left: 0;
+  margin-right: 300px;
+  margin-top: 20px;
+  margin-bottom: 0;
+}
+
+/* header */
+.img-navbar {
+  height: 50px;
+  width: auto;
+  margin-left: 60px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.navbar-mia {
+  display: flex;
+  border-bottom: 3px;
+  border-top: 0;
+  border-left: 0;
+  border-right: 0;
+  border-color: #636363;
+  border-style: solid;
+  border-radius: 0px;
+  background-color: #d6e6f2;
+}
+
+.navlink-mio {
+  color: #636363;
+  text-decoration: none;
+}
+
+.navlink-mio:hover {
+  color: #769fcd;
+}
+
+/* index */
+body {
+  background-color: #f7fbfc;
+}
+
+.carrousel {
+  height: 279px;
+  width: 558px;
+  margin-left: 48px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+#imagen_fondo {
+  background-image: url(../assets/imagenes/mapaa.avif);
+  height: 550px;
+}
+
+#imagen_fondo:before {
+  content: "";
+  position: absolute;
+  background-color: #636363;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+#titulo-fondo {
+  color: #f7fbfc;
+  position: relative;
+}
+
+.alto500 {
+  height: 500px;
+}
+
+.padding50 {
+  padding-top: 50px;
+  padding-right: 50px;
+  padding-bottom: 50px;
+  padding-left: 50px;
+}
+
+.space-ar {
+  display: flex;
+  justify-content: space-around;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 20px;
+}
+
+.margen-inferior {
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+/* como funciona */
+.cf1 {
+  background-image: url(../assets/imagenes/cf-1.jpg) !important;
+}
+
+.cf2 {
+  background-image: url(../assets/imagenes/cf-2.jpg) !important;
+}
+
+.cf3 {
+  background-image: url(../assets/imagenes/cf-3.jpg) !important;
+}
+
+.texto-cf {
+  line-height: 2;
+  color: #f7fbfc;
+  position: relative;
+}
+
+.titulo {
+  color: #636363;
+}
+
+.texto {
+  line-height: 2;
+  padding-top: 0;
+  padding-right: 20px;
+  padding-bottom: 0;
+  padding-left: 60px;
+  color: #636363;
+}
+
+.imgcontacto {
+  background-image: url(../assets/imagenes/contacto.jpg) !important;
+  height: 700px !important;
+}
+
+.color-cont {
+  position: relative;
+  color: #f7fbfc;
+}
+
+/* quiero manejar */
+.img-auto {
+  height: 300px;
+  width: 300px;
+  margin-left: 0;
+  margin-right: 100px;
+  margin-top: 0;
+  margin-bottom: 50px;
+}
+
+.texto-encabezado {
+  color: #636363;
+  line-height: 2;
+}
+
+.cuadro_boton {
+  border-bottom: 1px;
+  border-top: 1px;
+  border-left: 1px;
+  border-right: 1px;
+  border-color: #769fcd;
+  border-style: solid;
+  border-radius: 5px;
+  background-color: #769fcd;
+  color: #636363;
+}
+
+.cuadro_boton:hover {
+  background-color: #636363;
+  color: #f7fbfc;
+}
+
+.sin-subrayado {
+  text-decoration: none;
+}
+
+.img-tarjeta {
+  object-fit: cover;
+}
+
+.img-tarjeta:before {
+  content: "";
+  position: absolute;
+  background-color: #636363;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  opacity: 0.6;
+}
+
+.titulo-qm {
+  color: #636363;
+}
+
+.texto-qm {
+  font-family: "Source Sans Pro", sans-serif;
+  line-height: 2;
+  color: #636363;
+}
+
+.tarjeta {
+  transition: all 400ms ease;
+}
+
+.tarjeta:hover {
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
+  transform: translateY(-3%);
+}
+
+/* equipos */
+.bw {
+  -webkit-filter: grayscale(100%);
+  filter: grayscale(100%);
+}
+
+.img-conductor {
+  height: auto;
+  width: 80px;
+  margin-left: 0;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 15px;
+}
+
+.boca {
+  background-image: url(../assets/imagenes/foto_boca.jpg) !important;
+}
+
+.river {
+  background-image: url(../assets/imagenes/foto_river.jpg) !important;
+}
+
+.independiente {
+  background-image: url(../assets/imagenes/foto_independiente.jpg) !important;
+}
+
+.racing {
+  background-image: url(../assets/imagenes/foto_racing.jpg) !important;
+}
+
+.sanLorenzo {
+  background-image: url(../assets/imagenes/foto_sanLorenzo.jpg) !important;
+}
+
+.tarjeta-conductor {
+  border-bottom: 3px;
+  border-top: 3px;
+  border-left: 3px;
+  border-right: 3px;
+  border-color: #636363;
+  border-style: solid;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-right: 0;
+  padding-bottom: 30px;
+  padding-left: 0;
+  color: #636363;
+}
+
+.tarjeta-conductor2 {
+  border-bottom: 3px;
+  border-top: 3px;
+  border-left: 3px;
+  border-right: 3px;
+  border-color: #636363;
+  border-style: solid;
+  border-radius: 5px;
+  padding-top: 30px;
+  padding-right: 30px;
+  padding-bottom: 30px;
+  padding-left: 30px;
+  color: #636363;
+}
+
+.lista-conductores {
+  margin-left: 50px;
+  margin-right: 0;
+  margin-top: 0;
+  margin-bottom: 0;
+}
+
+.estrellas {
+  height: auto;
+  width: 100px;
+}
+
+/*# sourceMappingURL=style.css.map */

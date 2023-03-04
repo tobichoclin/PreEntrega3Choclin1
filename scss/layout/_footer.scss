@@ -1,0 +1,28 @@
+/* footer */
+.navbar-footer-mia{
+    background-color: $celesteClaro;
+    @extend %texto1;
+    color: $gris;
+    @include borde(3px, 0, 0, 0, $gris, solid, 0);
+    @extend %centradoTotal;
+    justify-content: flex-end !important;
+}
+.icono{
+    @extend %texto30;
+    color: $gris;
+}
+.icono:hover{
+    color: $blanco;
+}
+.icono2{
+    @extend %texto30;
+    color: $gris;
+}
+.nav-item-mio{
+    @include margen(0, 50px, 0, 0);
+}
+.derechos{
+    color: $gris;
+    @extend %texto15;
+    @include margen(20px, 300px, 0, 0);
+}
