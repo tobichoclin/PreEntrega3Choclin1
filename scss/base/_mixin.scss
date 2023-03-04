@@ -23,3 +23,34 @@
     padding-bottom: $abajo;
     padding-left: $izquierda;
 }
+@mixin mobile{
+    @media screen and (max-width: 576px){
+        @content;
+    }
+}
+@mixin texto60{
+    font-size: 60px;
+}
+@mixin texto12{
+    font-size: 12px;
+}
+@mixin texto18{
+    font-size: 18px;
+}
+@mixin texto35{
+    font-size: 35px;
+}
+@mixin texto20{
+    font-size: 20px;
+}
+@mixin texto50{
+    font-size: 50px;
+}
+@mixin centrarTexto{
+    text-align: center;
+}
+@mixin centradoTotal{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

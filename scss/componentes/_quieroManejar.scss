@@ -2,12 +2,20 @@
 .img-auto{
     @include altoAncho(300px, 300px);
     @include margen(0, 100px, 50px, 0);
+    @include mobile{
+        @include altoAncho(150px, 150px);
+        @include centradoTotal;
+        @include margen(0,0,20px,0);
+    }
 }
 .texto-encabezado{
     @extend %texto2;
     color: $gris;
     @extend %texto20;
     line-height: 2;
+    @include mobile{
+        @include texto18;
+    }
 }
 .cuadro_boton{
     @include borde(1px, 1px, 1px, 1px, #769fcd, solid, 5px);
@@ -42,6 +50,9 @@
     @extend %texto1;
     color: $gris;
     @extend %texto40;
+    @include mobile{
+        @include texto35;
+    }
 }
 .texto-qm{
     font-family: "Source Sans Pro", sans-serif;

@@ -15,4 +15,7 @@
     @extend %texto30;
     position: relative;
     @extend %centrarTexto;
+    @include mobile{
+      @include texto18;
+    }
 }

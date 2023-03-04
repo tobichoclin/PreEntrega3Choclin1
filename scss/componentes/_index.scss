@@ -2,12 +2,41 @@
 body{
     background-color: $blanco;
 }
+.titulo{
+    @extend %texto1;
+    @extend %texto40;
+    @extend %centradoHorizontal;
+    color: $gris;
+    @include mobile{
+        @include centrarTexto;
+        @include texto35;
+    }
+}
+.texto{
+    @extend %texto2;
+    line-height: 2;
+    @extend %texto20;
+    @include pad(0, 20px, 0, 60px);
+    @extend %centradoHorizontal;
+    color: $gris;
+    @include mobile{
+        @include centrarTexto;
+        @include texto18;
+        @include pad(0,0,0,0);
+    }
+}
 .carrousel{
     @include altoAncho(279px, 558px);
     @include margen(0, 0, 0, 48px);
+    @include mobile{
+        @include altoAncho(auto, 350px);
+    }
 }
 .testimonios{
     @extend %centradoTotal;
+    @include mobile{
+        @extend %centradoTotal;
+    }
 }
 #imagen_fondo{
     background-image: url(../assets/imagenes/mapaa.avif);
@@ -30,12 +59,23 @@ body{
     color: $blanco;
     @extend %texto100;
     position: relative;
+    @include mobile{
+        @include texto60;
+        @include centrarTexto;
+    }
 }
 .alto500{
     height: 500px;
+    @include mobile{
+        @include altoAncho(250px, 100%);
+        
+    }
 }
 .padding50{
     @include pad(50px, 50px, 50px, 50px);
+    @include mobile{
+        @include pad(0, 50px, 0, 50px);
+    }
 }
 .centrar-texto{
     @extend %centrarTexto;
@@ -47,7 +87,15 @@ body{
 }
 .margen-inferior{
     @include margen(0, 0, 50px, 0);
+    @include mobile{
+        @include margen(0,0,30px,0);
+    }
 }
 .centrar{
     @extend %centradoHorizontal;
+}
+.escudos-mobile{
+    @include mobile{
+        @include altoAncho(50px, auto);
+    }
 }

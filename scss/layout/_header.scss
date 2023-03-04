@@ -2,6 +2,9 @@
 .img-navbar{
     @include altoAncho(50px, auto);
     @include margen(0, 0, 0, 60px);
+    @include mobile{
+        @include margen(0,0,0, 10px);
+    }
 }
 .navbar-mia{
     display: flex;
@@ -13,6 +16,9 @@
     color: $gris;
     text-decoration: none;
     @extend %texto25;
+    @include mobile{
+        @include texto18;
+    }
 }
 .navlink-mio:hover{
     color: $celesteOscuro;

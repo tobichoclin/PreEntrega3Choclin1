@@ -10,6 +10,9 @@
 .icono{
     @extend %texto30;
     color: $gris;
+    @include mobile{
+        @include texto18;
+    }
 }
 .icono:hover{
     color: $blanco;
@@ -25,4 +28,7 @@
     color: $gris;
     @extend %texto15;
     @include margen(20px, 300px, 0, 0);
+    @include mobile{
+        @include margen(20px,0,0,0);  
+    }
 }
