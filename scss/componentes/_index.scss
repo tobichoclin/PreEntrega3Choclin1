@@ -39,7 +39,7 @@ body{
     }
 }
 #imagen_fondo{
-    background-image: url(../assets/imagenes/mapaa.avif);
+    background-image: url(../assets/imagenes/mapaa.jpg);
     @extend %imagenFondo;
     height: 550px;
     @extend %centradoTotal;
@@ -97,5 +97,12 @@ body{
 .escudos-mobile{
     @include mobile{
         @include altoAncho(50px, auto);
+    }
+}
+.franja{
+    background-image: url(../../assets/imagenes/Franja.jpg);
+    height: 350px;
+    @include mobile{
+        height: 200px;
     }
 }

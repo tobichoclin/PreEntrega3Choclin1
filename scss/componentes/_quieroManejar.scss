@@ -19,11 +19,13 @@
 }
 .cuadro_boton{
     @include borde(1px, 1px, 1px, 1px, #769fcd, solid, 5px);
+    @include pad(0, 5px, 0, 5px);
     background-color: $celesteOscuro;
     @extend %centrarTexto;
     @extend %texto1;
     @extend %texto20;
     color: $gris;
+    text-decoration: none;
 }
 .cuadro_boton:hover{
     background-color: $gris;

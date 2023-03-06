@@ -43,27 +43,27 @@
     background-image: url(../assets/imagenes/sanLorenzo-mobile.jpg) !important;
   }
 }
-.tarjeta-conductor{
-    @include borde(3px, 3px, 3px, 3px, #636363, solid, 5px);
-    @include pad(30px, 0, 30px, 0);
-    @extend %texto1;
-    color: $gris;
-    @include mobile{
-      @include pad(30px, 10px, 30px, 10px);
-    }
-}
-.tarjeta-conductor2{
-    @include borde(3px, 3px, 3px, 3px, #636363, solid, 5px);
-    @include pad(30px, 30px, 30px, 30px);
-    @extend %texto1;
-    color: $gris;
-}
-.lista-conductores{
-    @include margen(0, 0, 0, 50px);
-    @include mobile{
-      @include margen(0,0,20px,0);
-    }
+.orden-conductores{
+  display: flex;
+  justify-content: space-between;  
+  @include pad(0,10px,0,10px);
+  @include mobile{
+    justify-content: center;
+  }
 }
 .estrellas{
     @include altoAncho(auto, 100px);
+}
+.barra{
+  @include pad(0,10px,0,10px);
+}
+.texto-conductor{
+  @extend %texto2;
+  line-height: 2;
+  @extend %texto18;
+  color: $gris;
+  @include mobile{
+     @include centrarTexto;
+     @include texto15;
+  }
 }

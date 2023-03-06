@@ -9,7 +9,12 @@
   <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet"
     integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD" crossorigin="anonymous" />
   <link rel="stylesheet" href="../../css/style.css" />
-  <title>Proyecto Final</title>
+  <title>¡VAMOS A LA CANCHA! | Tu viaje a la cancha, tu experiencia</title>
+  <link rel="shortcut icon" href="../../assets/imagenes/logo.png">
+  <meta name="description"
+    content="En ¡VAMOS A LA CANCHA! podrás encontrar la forma para viajar a la cancha de tu equipo" />
+  <meta name="keywords"
+    content="cancha, viaje, futbol, estadio, auto, moto, combi, experiencia, manejar, equipo, hincha, conductores, mapa" />
 </head>
 
 <body class="bg_celeste">
@@ -42,101 +47,162 @@
     </nav>
   </header>
 
-  <div id="imagen_fondo" class="margen-inferior river">
+  <div id="imagen_fondo" class="river">
     <h1 id="titulo-fondo" class="titulo-equipos">RIVER</h1>
   </div>
 
-  <nav class="navbar bg-body-tertiary margen-inferior">
-    <div class="container">
-      <a class="navbar-brand" href="boca.html">
-        <img class="bw escudos-mobile" src="../../assets/imagenes/escudo_boca.png" alt="boca" alt="Bootstrap" width="75" height="75" />
-      </a>
-      <a class="navbar-brand" href="river.html">
-        <img class="escudos-mobile" src="../../assets/imagenes/escudo_river.png" alt="boca" alt="Bootstrap" width="75" height="75" />
-      </a>
-      <a class="navbar-brand" href="independiente.html">
-        <img class="bw escudos-mobile" src="../../assets/imagenes/escudo_independiente.png" alt="independiente" alt="Bootstrap"
-          width="75" height="75" />
-      </a>
-      <a class="navbar-brand" href="racing.html">
-        <img class="bw escudos-mobile" src="../../assets/imagenes/escudo_racing.png" alt="racing" alt="Bootstrap" width="75"
-          height="75" />
-      </a>
-      <a class="navbar-brand" href="sanLorenzo.html">
-        <img class="bw escudos-mobile" src="../../assets/imagenes/escudo_san_lorenzo.png" alt="san lorenzo" alt="Bootstrap" width="75"
-          height="75" />
-      </a>
-    </div>
-  </nav>
-  <div class="container-fluid margen-inferior">
+  <section class="container-fluid">
     <div class="row">
-      <div class="col-lg-3 col-md-12 col-12 lista-conductores">
-        <div id="list-example" class="list-group">
-          <a class="list-group-item list-group-item-action" href="#list-item-1">Conductor 1</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-2">Conductor 2</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-3">Conductor 3</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-4">Conductor 4</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-5">Conductor 5</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-6">Conductor 6</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-7">Conductor 7</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-8">Conductor 8</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-9">Conductor 9</a>
-          <a class="list-group-item list-group-item-action" href="#list-item-10">Conductor 10</a>
+      <nav class="navbar bg-body-tertiary margen-inferior franja">
+        <div class="container">
+          <a class="navbar-brand" href="boca.html">
+            <img class="escudos-mobile bw" src="../../assets/imagenes/escudo_boca.png"
+              alt="Consigue tu viaje a la cancha de Boca en ¡VAMOS A LA CANCHA!" alt="Bootstrap" width="75"
+              height="75" />
+          </a>
+          <a class="navbar-brand" href="river.html">
+            <img class="escudos-mobile" src="../../assets/imagenes/escudo_river.png"
+              alt="Consigue tu viaje a la cancha de River en ¡VAMOS A LA CANCHA!" alt="Bootstrap" width="75"
+              height="75" />
+          </a>
+          <a class="navbar-brand" href="independiente.html">
+            <img class="escudos-mobile bw" src="../../assets/imagenes/escudo_independiente.png"
+              alt="Consigue tu viaje a la cancha de Independiente en ¡VAMOS A LA CANCHA!" alt="Bootstrap" width="75"
+              height="75" />
+          </a>
+          <a class="navbar-brand" href="racing.html">
+            <img class="escudos-mobile bw" src="../../assets/imagenes/escudo_racing.png"
+              alt="Consigue tu viaje a la cancha de Racing en ¡VAMOS A LA CANCHA!" alt="Bootstrap" width="75"
+              height="75" />
+          </a>
+          <a class="navbar-brand" href="sanLorenzo.html">
+            <img class="escudos-mobile bw" src="../../assets/imagenes/escudo_san_lorenzo.png"
+              alt="Consigue tu viaje a la cancha de San Lorenzo en ¡VAMOS A LA CANCHA!" alt="Bootstrap" width="75"
+              height="75" />
+          </a>
+        </div>
+      </nav>
+    </div>
+  </section>
+
+  <h1 class="titulo margen-inferior">ENCONTRÁ TU VIAJE</h1>
+
+  <nav class="input-group margen-inferior barra">
+    <input type="search" class="form-control rounded" placeholder="Conductores" aria-label="Search"
+      aria-describedby="search-addon" />
+    <button type="button" class="btn btn-outline-primary cuadro_boton">🔍︎</button>
+  </nav>
+
+  <main class="container-fluid margen-inferior">
+    <div class="row orden-conductores">
+      <div class="card tarjeta" style="width: 18rem; margin-bottom: 20px;">
+        <iframe class="card-img-top"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3259476513094!2d-58.45196358519724!3d-34.54530176191568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20M%C3%A2s%20Monumental!5e0!3m2!1ses!2sar!4v1678135234276!5m2!1ses!2sar"
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Viaja a la cancha con tu conductor más cercano"></iframe>
+        <div class="card-body">
+          <div class="card-title centrar">
+            <img class="img-conductor" src="../../assets/imagenes/hombre1.jpeg"
+              alt="Los conductores de ¡VAMOS A LA CANCHA! ofrecen sus vehículos para viajes a la cancha" />
+          </div>
+          <div class="centrar">
+            <img class="estrellas" style="margin-bottom: 15px;" src="../../assets/imagenes/estrellas.png"
+              alt="¡VAMOS A LA CANCHA! ofrece los mejores conductores, con calificaciones de los pasajeros" />
+          </div>
+          <p class="card-text texto-conductor">"Gran conductor y mejor persona. Un placer haberlo conocido, ojalá poder
+            viajar mucho más con Alfredo!"</p>
+        </div>
+        <ul class="list-group list-group-flush">
+          <li class="list-group-item texto-conductor">Alfredo Gonzalez</li>
+          <li class="list-group-item texto-conductor">Salida: 16:00 hs.</li>
+          <li class="list-group-item texto-conductor">Avenida Rivadavia 123</li>
+        </ul>
+        <div class="card-body centrar">
+          <a href="#" class="card-link cuadro_boton">CONTACTAR</a>
         </div>
       </div>
-      <div class="container-fluid col-lg-7 col-md-12 col-12 tarjeta-conductor" id="list-item-1">
-        <div class="row centrar">
-          <div class="col-lg-12 col-md-12 col-12 centrar">
-            <img class="img-conductor" src="../../assets/imagenes/hombre1.jpeg" alt="" />
+
+      <div class="card tarjeta" style="width: 18rem; margin-bottom: 20px;">
+        <iframe class="card-img-top"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3259476513094!2d-58.45196358519724!3d-34.54530176191568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20M%C3%A2s%20Monumental!5e0!3m2!1ses!2sar!4v1678135234276!5m2!1ses!2sar"
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Viaja a la cancha con tu conductor más cercano"></iframe>
+        <div class="card-body">
+          <div class="card-title centrar">
+            <img class="img-conductor" src="../../assets/imagenes/persona2.jpg"
+              alt="Los conductores de ¡VAMOS A LA CANCHA! ofrecen sus vehículos para viajes a la cancha" />
           </div>
-          <div class="col-lg-12 col-md-12 col-12 centrar">
-            <img class="estrellas margen-inferior" src="../../assets/imagenes/estrellas.png" alt="estrellas" />
+          <div class="centrar">
+            <img class="estrellas" style="margin-bottom: 15px;" src="../../assets/imagenes/estrellas.png"
+              alt="¡VAMOS A LA CANCHA! ofrece los mejores conductores, con calificaciones de los pasajeros" />
           </div>
-          <div class="col-lg-5 col-md-5 col-12">
-            <p class="tarjeta-conductor2 margen-inferior">
-              Nombre: Alfredo <br />
-              Dirección de salida: Av. Rivadavia 123 <br />
-              Hora de salida: 16:00
-            </p>
-            <form class="row g-3 margen-inferior tarjeta-conductor2">
-              <div class="col-md-6">
-                <label for="inputName" class="form-label texto-form">Nombre</label>
-                <input type="name" class="form-control" id="inputEmail4" />
-              </div>
-              <div class="col-md-6">
-                <label for="inputSurname" class="form-label texto-form">Apellido</label>
-                <input type="surname" class="form-control" id="inputPassword4" />
-              </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label texto-form">Dirección</label>
-                <input type="text" class="form-control" id="inputAddress" />
-              </div>
-              <div class="col-12">
-                <label for="inputAddress" class="form-label texto-form">Edad</label>
-                <input type="text" class="form-control" id="inputAddress" />
-              </div>
-              <div class="form-floating">
-                <textarea class="form-control" placeholder="Leave a comment here" id="floatingTextarea2"
-                  style="height: 100px"></textarea>
-                <label class="texto-form" for="floatingTextarea2">Mensaje</label>
-              </div>
-              <div class="col-12 centrar">
-                <button type="submit" class="btn btn-primary cuadro_boton">
-                  CONTACTAR
-                </button>
-              </div>
-            </form>
+          <p class="card-text texto-conductor">"Excelente experiencia tuve con Gladis. Compartimos un viaje y una
+            hermosa tarde en la cancha"</p>
+        </div>
+        <ul class="list-group list-group-flush texto-conductor">
+          <li class="list-group-item texto-conductor">Gladis Perez</li>
+          <li class="list-group-item texto-conductor">Salida: 16:10 hs.</li>
+          <li class="list-group-item texto-conductor">Avenida Directorio 456</li>
+        </ul>
+        <div class="card-body centrar">
+          <a href="#" class="card-link cuadro_boton">CONTACTAR</a>
+        </div>
+      </div>
+      <div class="card tarjeta" style="width: 18rem; margin-bottom: 20px;">
+        <iframe class="card-img-top"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3259476513094!2d-58.45196358519724!3d-34.54530176191568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20M%C3%A2s%20Monumental!5e0!3m2!1ses!2sar!4v1678135234276!5m2!1ses!2sar"
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Viaja a la cancha con tu conductor más cercano"></iframe>
+        <div class="card-body">
+          <div class="card-title centrar">
+            <img class="img-conductor" src="../../assets/imagenes/persona3.jpg"
+              alt="Los conductores de ¡VAMOS A LA CANCHA! ofrecen sus vehículos para viajes a la cancha" />
           </div>
-          <div class="col-lg-5 col-md-5 col-12 centrar">
-            <iframe
-              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d13131.561131104698!2d-58.3749147244031!3d-34.63221282441338!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95a33516c87dd6af%3A0xce23d91e2fd7aa51!2sBombonera!5e0!3m2!1ses!2sar!4v1674133105229!5m2!1ses!2sar"
-              width="400" height="700" style="border: 0" allowfullscreen="" loading="lazy"
-              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          <div class="centrar">
+            <img class="estrellas" style="margin-bottom: 15px;" src="../../assets/imagenes/estrellas.png"
+              alt="¡VAMOS A LA CANCHA! ofrece los mejores conductores, con calificaciones de los pasajeros" />
           </div>
+          <p class="card-text texto-conductor">"Lo recomiendo enormemente a Raul, de esas personas con las que da gusto
+            pasar el tiempo"</p>
+        </div>
+        <ul class="list-group list-group-flush texto-conductor">
+          <li class="list-group-item texto-conductor">Raul Martinez</li>
+          <li class="list-group-item texto-conductor">Salida: 15:45 hs.</li>
+          <li class="list-group-item texto-conductor">Avenida 9 de Julio 789</li>
+        </ul>
+        <div class="card-body centrar">
+          <a href="#" class="card-link cuadro_boton">CONTACTAR</a>
+        </div>
+      </div>
+      <div class="card tarjeta" style="width: 18rem; margin-bottom: 20px;">
+        <iframe class="card-img-top"
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3286.3259476513094!2d-58.45196358519724!3d-34.54530176191568!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bcb43ae6018ddf%3A0x3d7f60a75bfa308a!2sEstadio%20M%C3%A2s%20Monumental!5e0!3m2!1ses!2sar!4v1678135234276!5m2!1ses!2sar"
+          style="border: 0" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"
+          title="Viaja a la cancha con tu conductor más cercano"></iframe>
+        <div class="card-body">
+          <div class="card-title centrar">
+            <img class="img-conductor" src="../../assets/imagenes/persona4.jpg"
+              alt="Los conductores de ¡VAMOS A LA CANCHA! ofrecen sus vehículos para viajes a la cancha" />
+          </div>
+          <div class="centrar">
+            <img class="estrellas" style="margin-bottom: 15px;" src="../../assets/imagenes/estrellas.png"
+              alt="¡VAMOS A LA CANCHA! ofrece los mejores conductores, con calificaciones de los pasajeros" />
+          </div>
+          <p class="card-text texto-conductor">"Mi conductor de confianza! Gracias a ¡Vamos a la cancha! me encontré con
+            Pedro"</p>
+        </div>
+        <ul class="list-group list-group-flush texto-conductor">
+          <li class="list-group-item texto-conductor">Pedro Ramirez</li>
+          <li class="list-group-item texto-conductor">Salida: 16:20 hs.</li>
+          <li class="list-group-item texto-conductor">Avenida Triunvirato 5000</li>
+        </ul>
+        <div class="card-body centrar">
+          <a href="#" class="card-link cuadro_boton">CONTACTAR</a>
         </div>
       </div>
     </div>
-  </div>
+  </main>
+
   <footer class="navbar-footer-mia">
     <nav class="navbar navbar-expand-lg">
       <div class="container-fluid">

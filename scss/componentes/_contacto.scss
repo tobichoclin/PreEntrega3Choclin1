@@ -4,6 +4,13 @@
         @include texto18;
     }
 }
+.texto-form1{
+    @extend %texto2;
+    color: $gris;
+    @include mobile{
+        @include texto18;
+    }
+}
 .imgcontacto{
     background-image: url(../assets/imagenes/contacto.jpg) !important;
     height: 700px !important;
